@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.big-feature-section{
+    cursor: pointer;
+    margin: 15px 150px 15px;
+    padding: 20px 15px;
+    border: 2px solid rgb(255, 166, 0);
+    border-radius: 100px;
+    height: 200px;
+    overflow: hidden;
+}
+.big-feature-flex{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.big-feature-container{
+  gap: 100px;
+}
+
+.feature-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
+
+.feature-img {
+  flex-basis: 30%;
+  height: 150px;
+}
+
+.feature-desc{
+  flex-direction: column;
+  align-items: flex-start;
+  flex-basis: 50%;
+  font-size: 0.8rem;
+}
+
+.card-img-top{
+  width: 90%;
+  height: 250px;
+  padding: 20px;
+}
+
+.card{
+  border-radius: 0;
+  margin: 10px;
+  box-shadow: rgba(0,0,0,0.16) 0px 2px 4px;
+}
+
+
+.d-flex{
+  padding: 10px;
+}
+
+.card{
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+.culture-of-india-heritage {  
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  margin: 16px;
+  float:left;
+}
+
+.culture-of-india-img {
+    height: 150px;
+    width: 180px;
+}
+.culture-of-india-text {
+    text-align:left;
+    margin:50px 0;
+}
+.culture-of-india-poptext {
+    background-color: antiquewhite;
+    width: 400px
+}
+.culture-of-india-heading {
+    text-align: center;
+    margin: 50px 0 ;
+}
+#culture-of-india-item {
+    height:200px;
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+.outer-box{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to top left,#ffcf3e,#ffdba1);
+}
+.inner-box{
+  
+  width: 400px;
+  margin: 0 auto;
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+  padding: 20px 40px;
+  background-color: #ffffff09  /* Not work because we defined background below again*/;
+  /* glassomorphic effect --> making an element transparent like glass ffffff33 */
+  background: linear-gradient(to top left,#ffffffff,#ffffff33);
+  backdrop-filter: blur(8px);
+  border-radius: 8px;
+  /* border: 2px solid yellow; */
+  box-shadow: 2px 2px 5px #a57727;
+  z-index: 2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.signup-header h1{
+
+  font-size: 2.5rem;
+  color: #212121;
+  font-weight: 400;
+}
+.signup-header p{
+ 
+  font-size: 0.9rem;
+  color:#555;
+}
+.signup-body{
+   margin: 20px 0;
+}
+.signup-body p{
+    margin: 10px 0;
+}
+.signup-body p label{
+  display: block;
+  font-weight: bold;
+}
+.signup-body p input{
+    
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #cccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-top: 4px;
+}
+.signup-body p input[type="submit"]{
+  background-color:#db9534;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.signup-body p input[type="submit"]:hover{
+  background-color: #a56827;
+}
+.signup-footer p{
+  color: #555;
+  text-align: center;
+}
+.signup-footer p a{
+  color: #a57727;
+}
+.circle{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background: linear-gradient(to top right,#ffffff33,#ffffffff);
+  position: absolute;
+}
+.c1{
+  top: 100px;
+  left: 50px;
+}
+.c2{
+  bottom: 100px;
+  right: 50px;
+}
+
+.v5_5 {
+  width: 100vw;
+  height: 100vh;
+  /* background: linear-gradient(to bottom right, rgb(255, 111, 0), rgb(255, 102, 0)); */
+  overflow: hidden;
+}
+.v5_6 {
+  width: 100vw;
+  height: 110vh;
+  background: url("landingpage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  /* position: absolute; */
+  top: 0px;
+  overflow: hidden;
+}
+.v5_7 {
+  width: 700px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 150px;
+  left: 301px;
+  font-family: Aladin;
+  font-weight: Regular;
+  font-size: 66px;
+  opacity: 1;
+  text-align: left;
+}
+.v5_10 {
+  width: 600px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 235px;
+  left: 370px;
+  font-family: Aladin;
+  font-weight: Regular;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}
