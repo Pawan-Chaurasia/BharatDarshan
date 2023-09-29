@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/BharatDarshan/static/css/main.ae2ffa0e.css",
+    "main.js": "/BharatDarshan/static/js/main.1df1d885.js",
+    "static/js/787.28cb0dcd.chunk.js": "/BharatDarshan/static/js/787.28cb0dcd.chunk.js",
+    "static/media/goan culture.jpg": "/BharatDarshan/static/media/goan culture.44a2694c7d8456f580ac.jpg",
+    "static/media/heri2.jpg": "/BharatDarshan/static/media/heri2.92006e2a41d0737c339f.jpg",
+    "static/media/heri3.jpg": "/BharatDarshan/static/media/heri3.c681e4c089f350d43860.jpg",
+    "static/media/heri.jpg": "/BharatDarshan/static/media/heri.db694add9da428c6b9d1.jpg",
+    "static/media/landingpage.png": "/BharatDarshan/static/media/landingpage.f309b9d4609f1685767a.png",
+    "static/media/slick.svg": "/BharatDarshan/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/BharatDarshan/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "index.html": "/BharatDarshan/index.html",
+    "static/media/slick.ttf": "/BharatDarshan/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/BharatDarshan/static/media/slick.295183786cd8a1389865.woff",
+    "main.ae2ffa0e.css.map": "/BharatDarshan/static/css/main.ae2ffa0e.css.map",
+    "main.1df1d885.js.map": "/BharatDarshan/static/js/main.1df1d885.js.map",
+    "787.28cb0dcd.chunk.js.map": "/BharatDarshan/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae2ffa0e.css",
+    "static/js/main.1df1d885.js"
+  ]
+}
